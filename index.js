@@ -2,17 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const csvjson = require('csvjson')
 
-/**
- * # Documentation:
- * ## Usage
- * ### Command Module
- * - /proxy broker toggle (just toggles the state of this module between on and off)
- * 
- * ## Without Command Module
- * !broker toggle (just toggles the state of this module between on and off)
- * 
- * ## You can arrange the values below
- */
+// You can arrange the values below:
 const START_ON_LOGIN = true
 const DELAY_ACTIONS = true
 
@@ -20,7 +10,7 @@ const SEARCH_INTERVAL_MS = 60000
 const NEXT_PAGE_MS = 150
 
 const MODULE_WHISPER_NAME = '>Broker'
-/* ==================================================== */
+// ==================================================== 
 
 const queryDir = path.join(__dirname, 'query.csv')
 
