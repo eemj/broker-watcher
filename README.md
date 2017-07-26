@@ -20,4 +20,4 @@ Requires you to have `commands` module and
 
 Item ID | Search Phrase | Price Limit
 ---|---|---
-[Database](teradatabase.net/en/item/) | `<enter something here>` | 9999 (everything below or equal this price will get whispered back to you)
+[Database](http://teradatabase.net/en/items) | `<enter something here>` | 9999 (everything below or equal this price will get whispered back to you)
