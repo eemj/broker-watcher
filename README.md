@@ -8,8 +8,7 @@ npm install
 ```
 
 ## Usage
-Requires you to have `commands` module and
-
+Requires you to have [`command`](https://github.com/pinkipi/command) module.
 ### Commands
 - `/proxy broker toggle` - Toggles the module's state.
 
