@@ -1,5 +1,5 @@
 {
-  "name": "https://github.com/eemj/broker-watcher.git",
+  "name": "broker-watcher",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
