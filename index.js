@@ -46,7 +46,7 @@ module.exports = function BrokerListing (dispatch) {
 
   const command = cmdModule(dispatch)
   command.add('broker', args => {
-    if (args.toLowerCase().trim() ==! 'toggle') return
+    if (args.toLowerCase().trim() !== 'toggle') return
     if(searchInterval) {
       clearInterval(searchInterval)
       searchInterval = null
