@@ -15,7 +15,8 @@ Requires you to have `commands` module and
 
 ### Configuration
 - Editing the query.csv file, you can either open it with Microsoft Excel or a spreadsheet editor or use a text editor:
-Example:
+
+**Example:**
 
 Item ID | Search Phrase | Price Limit
 ---|---|---
