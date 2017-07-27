@@ -54,10 +54,6 @@ module.exports = function BrokerListing (dispatch) {
     sendMessage(`Module&nbsp;</font><font color="#32cd32">${searchInterval ? 'ON' : 'OFF'}`)
   })
 
-  dispatch.hook('C_TRADE_BROKER_WAITING_ITEM_LIST_NEW', 1, event => {
-    fs.writeFileSync(path.join(__dirname, 'C_TRADE_BROKER_WAITING_ITEM_LIST_NEW.json'), JSON.stringify(event), { encoding: 'utf8' })
-  })
-
   dispatch.hook('S_TRADE_BROKER_HIGHEST_ITEM_LEVEL', 1, event => { ({ ilvl } = event) })
 
   dispatch.hook('S_TRADE_BROKER_WAITING_ITEM_LIST', 1, event => {
